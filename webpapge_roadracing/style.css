@@ -1,0 +1,10 @@
+body {
+    background-color: teal;
+}
+
+#main_header {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: greenyellow;
+}
