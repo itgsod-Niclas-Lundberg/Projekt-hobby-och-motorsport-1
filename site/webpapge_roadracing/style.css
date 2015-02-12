@@ -3,8 +3,31 @@ body {
 }
 
 #main_header {
-    height: 100px;
-    width: 100px;
-    margin: 20px;
+    height: 250px;
+    width: 1200px;
+    margin: 30px;
     background-color: greenyellow;
+    position: absolute;
+}
+
+#button_header {
+    width: 1200px;
+    height: 60px;
+    margin-top: 200px;
+    background-color: blue;
+}
+
+#button_header p {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#button_header div {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 70px;
+    float: left;
 }
