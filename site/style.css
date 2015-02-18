@@ -1,20 +1,21 @@
 body {
     background-color: teal;
     margin: 0px;
+    background-image: url("img/catalunya_pit.jpg");
 }
 
 #main_header {
     height: 200px;
     width: 100%;
     position: absolute;
-    background-color: greenyellow;
+    background-color: whitesmoke;
 }
 
 #button_header {
     width: 100%;
     height: 60px;
     margin-top: 160px;
-    background-color: cornflowerblue;
+    background-color: #942728;
 }
 
 #button_header p {
@@ -27,6 +28,11 @@ body {
 #button_header a {
     width: 120px;
     height: 40px;
+    text-decoration-color: black;
+}
+
+a:-webkit-any-link {
+    color: black;
 }
 
 #button_header div {
@@ -34,16 +40,16 @@ body {
     height: 40px;
     background-color: white;
     margin-top: 10px;
-    margin-left: 8%;
+    margin-left: 9%;
     float: left;
-    border-radius: 7px;
-    box-shadow: 3px 1px 1px 1px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px black;
 }
 
 #main_content {
     width: 60%;
     height: 1000px;
-    background-color: yellow;
+    background-color: whitesmoke;
     float: left;
     position: absolute;
     margin-top: 220px;
