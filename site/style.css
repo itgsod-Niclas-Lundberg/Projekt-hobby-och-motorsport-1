@@ -1,5 +1,4 @@
 body {
-    background-color: teal;
     margin: 0px;
     background-image: url("img/catalunya_pit.jpg");
 }
@@ -56,6 +55,22 @@ a:-webkit-any-link {
     margin-top: 220px;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#index_articles {
+    text-align: center;
+}
+
+#index_articles embed {
+    width: 350px;
+    height: 200px;
+    font-family: Times;
+}
+
+#videos {
+    width: 45.5%;
+    height: 290px;
+    margin: 2%;
 }
 
 #donate_paypal_text {
