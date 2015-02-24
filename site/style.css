@@ -48,7 +48,7 @@ a:-webkit-any-link {
 
 #main_content {
     width: 60%;
-    height: 1000px;
+    height: auto;
     background-color: whitesmoke;
     float: left;
     position: absolute;
@@ -65,6 +65,19 @@ a:-webkit-any-link {
     width: 350px;
     height: 200px;
     font-family: Times;
+}
+
+#videos_example h1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#latest_video {
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #videos {
