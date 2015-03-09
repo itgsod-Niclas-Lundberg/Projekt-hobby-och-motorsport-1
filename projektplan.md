@@ -23,5 +23,9 @@ Skador kan uppstå eftersom att det är en motorcykel som går över 130km/h, s�
 ### Tidsplan: 
 Det är svårt att säga exakt när vi kan bli klara med varje del uppgift men målet är att få upp webbsidan så snabbt som möjligt, inom en månad. Därefter kommer arbetet med motorcykeln, multikoptern och kamerorna börja, t.ex. ställa in alla inställningar och träna. Än så länge kan inte en exakt tidsplan ges.
 
+Tidsplanen är väderberoende men vi hoppas komma igång o filma i slutet av mars, eller så fort som möjligt. 
+innan dess ska vi få klart hemsidan så att vi kan börja med själva projektet så fort vädret tillåter. 
+
+
 ### Deadline: 
 Mitten av maj
