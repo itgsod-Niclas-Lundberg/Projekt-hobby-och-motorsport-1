@@ -1,23 +1,31 @@
 <%= yield %>
 <div id="donate_paypal_textbox">
+    <h1>Donera till oss:</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu lobortis mauris, eget bibendum nisi.
-        Phasellus ultricies magna scelerisque elementum commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-        Sed dictum sem a diam efficitur mattis. Nunc dapibus id turpis ac luctus. Quisque molestie dignissim dolor vel lobortis. Sed efficitur leo nunc, ac lacinia nibh volutpat eu.
+        Phasellus ultricies magna scelerisque elementum commodo. Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas.
+        Sed dictum sem a diam efficitur mattis. Nunc dapibus id turpis ac luctus. Quisque molestie dignissim dolor vel
+        lobortis. Sed efficitur leo nunc, ac lacinia nibh volutpat eu.
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eleifend dolor nunc, ut mollis sem molestie quis.
-        Fusce accumsan malesuada nibh dictum malesuada. Vestibulum condimentum libero risus, at tincidunt eros vulputate non.
-        Integer gravida arcu non tellus eleifend scelerisque eget eget risus. Curabitur condimentum mi non mattis mollis. Suspendisse ullamcorper facilisis eros ut imperdiet.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eleifend dolor
+        nunc, ut mollis sem molestie quis.
+        Fusce accumsan malesuada nibh dictum malesuada. Vestibulum condimentum libero risus, at tincidunt eros vulputate
+        non.
+        Integer gravida arcu non tellus eleifend scelerisque eget eget risus. Curabitur condimentum mi non mattis
+        mollis. Suspendisse ullamcorper facilisis eros ut imperdiet.
         Integer orci ligula, aliquet id dictum ac, eleifend nec nisi.</p>
+
+    <form id="donate_paypal_button" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="felix.wetell@gmail.com">
+        <input type="hidden" name="lc" value="SE">
+        <input type="hidden" name="item_name" value="Sne Tak Racing">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="currency_code" value="SEK">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/en_US/SE/i/btn/btn_donateCC_LG.gif" border="0"
+               name="submit"
+               alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
 </div>
-<form id="donate_paypal_button" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_donations">
-    <input type="hidden" name="business" value="felix.wetell@gmail.com">
-    <input type="hidden" name="lc" value="SE">
-    <input type="hidden" name="item_name" value="Sne Tak Racing">
-    <input type="hidden" name="no_note" value="0">
-    <input type="hidden" name="currency_code" value="SEK">
-    <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
-    <input type="image" src="https://www.paypalobjects.com/en_US/SE/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
-           alt="PayPal - The safer, easier way to pay online!">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
