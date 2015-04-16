@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-image: url("img/catalunya_pit.jpg");
+    background-color: whitesmoke;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -8,25 +8,31 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: black;
     text-decoration: none;
 }
+#webpage {
+    position: relative;
+}
 
 #main_header img {
-    width: 100%;
+    width: 600px;
     height: 180px;
 }
 
 #page_button_holder {
-    width: 120px;
-    height: 460px;
+    width: 110px;
+    height: auto;
     padding-left: 0;
     margin-right: 0;
-    background-color: brown;
     position: relative;
     float: left;
 }
 
+#top_page_button {
+    margin-top: 0px;
+}
 #page_button_holder div {
     width: 95px;
     height: 55px;
+    border: 1px solid black;
     border-left: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -41,49 +47,42 @@ h1, h2, h3, h4, h5, h6, p, a {
     height: auto;
     text-align: center;
 }
-#home_button:hover a {
+#home_button:hover h2 {
     color: brown;
 }
-#gallery_button:hover a {
+#gallery_button:hover h2 {
     color: brown;
 }
-#videos_button:hover a {
+#videos_button:hover h2 {
     color: brown;
 }
-#donate_button:hover a {
+#donate_button:hover h2 {
     color: brown;
 }
-#about_button:hover a {
+#about_button:hover h2 {
     color: brown;
-}
-
-#top_page_button {
-    margin-top: 0;
 }
 
 #main_content {
     width: 800px;
     height: auto;
-    background-color: whitesmoke;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
 
-.article {
+.article_feed {
     width: 500px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    border-bottom: 2px ridge grey;
     padding: 4px;
-    background-color: #e7e5e0;
-    border-radius: 8px;
     text-align: center;
     position: relative;
 }
 
-.article img {
+.article_feed img {
     margin-top: 20px;
     width: 460px;
     height: 300px;
@@ -91,27 +90,24 @@ h1, h2, h3, h4, h5, h6, p, a {
     position: relative;
 }
 
-#article1 {
-    margin-top: 30px;
-}
-
 #videos_latest_video {
     width: 100%;
     height: 430px;
-    margin-bottom: 10%;
+    margin-bottom: 100px;
+    position: relative;
 }
 
 #videos_latest_video h1 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0px;
+    width: 300px;
+    margin-bottom: 0;
+    position: relative;
 }
 
 #videos_latest_video iframe {
-    width: 80%;
+    width: 800px;
     height: 400px;
-    margin-left: 10%;
-    margin-right: 10%;
+    position: relative;
+    float: left;
 }
 
 #videos_other_videos {
@@ -120,25 +116,28 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 #videos_other_videos h1 {
-    margin-left: 3%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #videos_other_videos iframe {
-    width: 45.5%;
-    height: 290px;
-    margin: 2%;
+    width: 390px;
+    height: 270px;
+    margin-bottom: 20px;
+}
+
+.rightside_videos {
+    margin-left: 16px;
 }
 
 #donate_paypal_textbox {
     width: 550px;
     height: auto;
     padding: 8px;
+    border: 1px solid black;
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    background-color: #e7e5e0;
 }
 
 #donate_paypal_button {

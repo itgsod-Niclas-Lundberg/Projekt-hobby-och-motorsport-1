@@ -6,32 +6,42 @@
     <title>Welcome!</title>
 </head>
 <body>
+<div id="webpage">
+    <div id="main_header">
+        <img src="img/Sne-tak_Headerv2.png"/>
+    </div>
 
-<div id="main_header">
-    <img src="img/Sne-tak_Headerv2.png"/>
-</div>
+    <div id="page_button_holder">
 
-<div id="page_button_holder">
-
-    <div id="top_page_button"> <h2 id="home_button"> <a href="index.html">Home</a> </h2> </div>
-    <div> <h2 id="gallery_button"> <a href="gallery.html">Gallery</a> </h2> </div>
-    <div> <h2 id="videos_button"> <a href="videos.html">Videos</a> </h2> </div>
-    <div> <h2 id="donate_button"> <a href="donate.html">Donate</a> </h2> </div>
-    <div> <h2 id="about_button"> <a href="about.html">About</a> </h2> </div>
-
-</div>
-
-<div id="main_content">
-
-    <%= yield %>
-
-</div>
-
-<div id="footer">
-    <div id="footer_info">
+        <a href="index.html" id="home_button">
+            <div id="top_page_button"><h2> Home </h2></div>
+        </a>
+        <a href="gallery.html" id="gallery_button">
+            <div><h2> Gallery </h2></div>
+        </a>
+        <a href="videos.html" id="videos_button">
+            <div><h2> Videos </h2></div>
+        </a>
+        <a href="donate.html" id="donate_button">
+            <div><h2> Donate </h2></div>
+        </a>
+        <a href="about.html" id="about_button">
+            <div><h2> About </h2></div>
+        </a>
 
     </div>
-</div>
 
+    <div id="main_content">
+
+        <%= yield %>
+
+    </div>
+
+    <div id="footer">
+        <div id="footer_info">
+
+        </div>
+    </div>
+</div>
 </body>
 </html>
